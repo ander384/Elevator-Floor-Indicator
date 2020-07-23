@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TapToBeginActivity"
+    android:background="#111111"
+    android:onClick="OnClickScreen">
+
+    <TextView
+        android:text="Tap To Begin"
+        android:fontFamily="@font/league_gothic_regular"
+        android:textSize="90sp"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/tv_tap_to_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="OnClickScreen"/>
+    <TextView
+        android:text="Your Personalized Elevator Advertising Experience"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tap_to_begin"
+        android:layout_centerInParent="true"
+        android:onClick="OnClickScreen"/>
+</RelativeLayout>
